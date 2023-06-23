@@ -1,0 +1,247 @@
+/* Your app custom styles here */
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.toolbar-bottom {
+  height: auto;
+  background-color: #FFFFFE;
+}
+
+.page-content {
+  padding: 33px 20px 0;
+}
+
+
+/* Home */
+.page-home {
+  background-image: url('../assets/circles-bottom.png');
+  background-position: center bottom;
+  background-size: contain;
+}
+
+.home-heading h4 {
+  color: #094067;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  margin: 0;
+}
+
+.home-heading span, .home-image span {
+  color: #094067;
+  font-size: 16px;
+  line-height: 48px;
+  letter-spacing: 0.8px;
+}
+
+.home-image {
+  margin-top: -50px;
+  text-align: center;
+}
+
+.home-login-button {
+  margin: 61px 0 70px;
+  position: relative;
+}
+
+.login-screen-open {
+  border-radius: 100px;
+  background: linear-gradient(112deg, #82C3FF 0%, #3DA9FC 96.25%);
+  line-height: 48px;
+  font-size: 14px;
+  color: #F3F3F3;
+  padding: 32px 0;
+  width: 100%;
+}
+
+.shadow-box {
+  display: block;
+  background-color: #52B6FF;
+  opacity: 0.4000000059604645;
+  width: 311px;
+  height: 64px;
+  position: absolute;
+  z-index: -1;
+  top: 7px;
+  left: 30px;
+  filter: blur(25px);
+}
+
+/* Login */
+.login-screen-title {
+  color: #094067;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.login-page {
+  background-color: #FFFFFE !important;
+  background-image: url('../assets/circles-side.png') !important;
+  background-size: contain !important;
+  background-position: bottom !important;
+}
+
+.login-form input {
+  border: 1px solid #3D3D3D33;
+  padding: 15px 19px;
+  width: 100%;
+  color: #424242;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: white;
+}
+
+.login-form input::placeholder {
+  color: #424242;
+}
+
+.login-form input:first-child {
+  margin: 35px 0 26px;
+}
+
+.login-button, .primary-button {
+  border-radius: 100px;
+  background: linear-gradient(116deg, #82C3FF 0%, #3DA9FC 96.25%);
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+  margin: 31px 0 63px;
+  line-height: 48px;
+  width: auto;
+  display: inline-block;
+  min-width: 98px; 
+}
+
+.login-actions {
+  text-align: center;
+}
+
+.login-actions div {
+  color: #094067;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.login-actions div a {
+  text-decoration: underline;
+  color: #094067;
+}
+
+/* Dashboard */
+
+.dashboard-welcome {
+  position: relative;
+}
+
+.profile-pic {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.profile-pic::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  transform: translate(-62%, -35.5%);
+  width: 300px;
+  z-index: -1;
+  height: 300px;
+  
+  background-image: url('../assets/circles-profile.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.dashboard-welcome span {
+  color: #094067;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.dashboard-welcome h6 {
+  color: #094067;
+  font-size: 16px;
+  line-height: 48px;
+  letter-spacing: 0.8px;
+  margin: 0;
+}
+
+.free-consultations {
+  color: #FFFFFE;
+  background-image: url("../assets/bg.jpg");
+  padding: 22px 18px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 28px;
+}
+
+.free-consultations span {
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.free-consultations span::before {
+  content: '';
+  width: 8px;
+  display: block;
+  height: 8px;
+  background-color: #5EFF6E;
+  border-radius: 100%;
+}
+
+.free-consultations p {
+  max-width: 173px;
+  color: #FFFFFE;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 14.5px 0 0;
+}
+
+.free-consultations img {
+  position: absolute;
+  bottom: 28px;
+  right: 0;
+}
+
+.primary-button {
+  margin: 12px 0 15px;
+}
+
+.services-section {
+  margin-bottom: 12px;
+}
+
+.dashboard-heading {
+  color: #094067;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0 0 16px;
+}
+
+.appointments-section {
+  margin-bottom: 140px;
+}
+
+.appointments-wrapper {
+  margin: 24px 0 40px;
+}
+

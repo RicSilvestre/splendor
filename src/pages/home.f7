@@ -1,0 +1,28 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Mockup status bar -->
+    <img src="../assets/statusbar.png" alt="Mockup status bar"/>
+    <!-- Scrollable page content-->
+    <div class="page-content page-home">
+      <div class="home-heading">
+        <h4>Take Care Of Your Health!</h4>
+        <span>With O Medic</span>
+      </div>
+      <div class="home-image">
+        <img src="../assets/home-image.png" alt="Home image"/>
+        <span>Manage your health ease with us</span>
+      </div>
+      <div class="home-login-button">
+        <div class="shadow-box"></div>
+        <a href="#" class="button button-fill login-screen-open" data-login-screen="#my-login-screen">Get Started</a>
+      </div>
+      
+    </div>
+  </div>
+</template>
+<script>
+export default () => {
+  return $render;
+}
+</script>
+

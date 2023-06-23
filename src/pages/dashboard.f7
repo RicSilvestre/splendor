@@ -1,0 +1,43 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Mockup status bar -->
+    <img src="../assets/statusbar.png" alt="Mockup status bar"/>
+    <!-- Toolbar-->
+    <div class="toolbar toolbar-bottom">
+      <img src="../assets/bottomnav.png" alt="Bottom navigation"/>
+    </div>
+    <!-- Scrollable page content-->
+    <div class="page-content">
+      <div class="dashboard-welcome">
+        <span>Welcome</span>
+        <h6>Donna Troy</h6>
+        <div class="profile-pic">
+          <img src="../assets/profile.png" alt="Profile picture"/>
+        </div>
+      </div>
+      <div class="free-consultations">
+        <span>30 Doctor available</span>
+        <p>Get free consultation for new users</p>
+        <a href="#" class="primary-button">Find a doctor</a>
+        <img src="../assets/dashboard-image.png" alt="dashboard image"/>
+      </div>
+      <div class="services-section">
+        <h5 class="dashboard-heading">Our Services</h5>
+        <div class="services-wrapper">
+          <img src="../assets/services.png" alt="Services"/>
+        </div>
+      </div>
+      <div class="appointments-section">
+        <h5 class="dashboard-heading">Appointments</h5>
+        <div class="appointments-wrapper">
+          <img src="../assets/appointment.png" alt="Appointment"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default () => {
+  return $render;
+}
+</script>
